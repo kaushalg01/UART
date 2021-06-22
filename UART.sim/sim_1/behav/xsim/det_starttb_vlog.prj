@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../UART.srcs/sources_1/new/PISO.v" \
+"../../../../UART.srcs/sources_1/new/mux4x1.v" \
+"../../../../UART.srcs/sources_1/new/parity_gen.v" \
+"../../../../UART.srcs/sources_1/new/transmitter.v" \
+"../../../../UART.srcs/sources_1/new/det_start.v" \
+"../../../../UART.srcs/sources_1/new/parity_check.v" \
+"../../../../UART.srcs/sources_1/new/SIPO.v" \
+"../../../../UART.srcs/sources_1/new/stopbit_check.v" \
+"../../../../UART.srcs/sources_1/new/receiver.v" \
+"../../../../UART.srcs/sim_1/new/trasmittertb.v" \
+"../../../../UART.srcs/sim_1/new/parity_gentb.v" \
+"../../../../UART.srcs/sim_1/new/mux4x1_tb.v" \
+"../../../../UART.srcs/sim_1/new/PISO_tb.v" \
+"../../../../UART.srcs/sim_1/new/det_starttb.v" \
+"../../../../UART.srcs/sim_1/new/parity_check_tb.v" \
+"../../../../UART.srcs/sim_1/new/sipo_tb.v" \
+"../../../../UART.srcs/sim_1/new/stopbit_tb.v" \
+"../../../../UART.srcs/sim_1/new/receiver_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
