@@ -1,4 +1,4 @@
-`timescale 1ns / 100ps
+`timescale 1us / 1ns
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -70,7 +70,7 @@ reg [3:0] count=0;
                    nstate=idle; end 
      endcase  
       
-   always@(posedge clk) 
+   always@(posedge clk or negedge rst) 
      begin 
      if(!rst) 
       pstate=idle;

@@ -2,14 +2,14 @@
 # Webtalk v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Sat Oct 30 18:57:06 2021
-# Process ID: 10836
+# Start of session at: Mon Aug  9 12:12:17 2021
+# Process ID: 17748
 # Current directory: C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.sim/sim_1/behav/xsim
 # Command line: wbtcv.exe -mode batch -source C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.sim/sim_1/behav/xsim/xsim.dir/toptestbench_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
 source C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.sim/sim_1/behav/xsim/xsim.dir/toptestbench_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-186] 'C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.sim/sim_1/behav/xsim/xsim.dir/toptestbench_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Oct 30 18:57:12 2021. For additional details about this file, please refer to the WebTalk help file at C:/vivado/Vivado/2020.2/doc/webtalk_introduction.html.
-webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 106.797 ; gain = 0.000
-INFO: [Common 17-206] Exiting Webtalk at Sat Oct 30 18:57:12 2021...
+INFO: [Common 17-186] 'C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.sim/sim_1/behav/xsim/xsim.dir/toptestbench_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Aug  9 12:12:24 2021. For additional details about this file, please refer to the WebTalk help file at C:/vivado/Vivado/2020.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 106.609 ; gain = 0.000
+INFO: [Common 17-206] Exiting Webtalk at Mon Aug  9 12:12:24 2021...

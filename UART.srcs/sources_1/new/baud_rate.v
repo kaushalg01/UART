@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1us / 1ns
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -38,7 +38,7 @@ always @(posedge clk or negedge rst)
    end 
   else 
  begin 
-   if(count==modulus)
+   if(count==modulus-1)
      begin 
       baud_clk<=~baud_clk; 
       count<=0;
@@ -55,7 +55,7 @@ begin
   case(sel)
   2'b00: modulus=15'd10416; 
   2'b01: modulus=13'd2604;
-  2'b10: modulus=13'd1302;
+  2'b10: modulus=3'd5;
   2'b11: modulus=11'd656;
   endcase
   end 
