@@ -37,7 +37,7 @@ must operate at about the same baud rate.
 <p align = "center"> Synthesised block level diagram </p>
 <p align="center"> <img src="https://user-images.githubusercontent.com/75021962/139571839-d60747ce-ba1e-489e-9000-ca7f9be6ef4a.png" width="800" height="400" /> </p>
 <p align ="center"> OUTPUT WAVEFORM </p>
-<p align="center"> <img src="https://user-images.githubusercontent.com/75021962/139572003-4889644a-3f32-4b2f-96d6-abe64234dde7.png" width="800" height="400" /> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/75021962/139590103-07bc1344-b155-4de7-8d5c-6115b4474684.png" width="800" height="400" /> </p>
 
 
 
