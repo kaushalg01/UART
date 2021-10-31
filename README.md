@@ -1,4 +1,4 @@
-# UART
+# UART.
 UART stands for Universal Asynchronous Receiver/Transmitter. It’s not a
 communication protocol like SPI and I2C, but a physical circuit in a
 microcontroller, or a stand-alone IC. A UART’s main purpose is to transmit
@@ -17,19 +17,29 @@ to start reading the bits.
 When the receiving UART detects a start bit, it starts to read the incoming
 bits at a specific frequency known as the baud rate. Baud rate is a measure of
 the speed of data transfer, expressed in bits per second (bps). Both UARTs
-must operate at about the same baud rate
+must operate at about the same baud rate.
 <br />   <p align="center"> BLOCK DIAGRAM </p>
 
 <p float="left">
+<<<<<<< HEAD
 <img src="https://user-images.githubusercontent.com/75021962/139570975-7c76365c-3684-4f5a-ace9-10ceaf0c110e.png" width="300" height="400" /> 
 <img src="https://user-images.githubusercontent.com/75021962/139571037-e3db714a-a895-4613-939e-7cd9ac23b30b.png" width="300" height="400" />
+=======
+<img src="https://user-images.githubusercontent.com/75021962/139570975-7c76365c-3684-4f5a-ace9-10ceaf0c110e.png" width="350" height="400" /> 
+<img src="https://user-images.githubusercontent.com/75021962/139571037-e3db714a-a895-4613-939e-7cd9ac23b30b.png" width="350" height="400" />
+>>>>>>> ffe66da70c553a63d8b452d0947d0869791d3e1e
 </p>
 </br> <p align="center">FSMs </p>
 <p align="left"> Receiver side </p>  
 <p align="center"> Transmitter side </p>
 <p float="left">
+<<<<<<< HEAD
 <img src="https://user-images.githubusercontent.com/75021962/139571414-1f471a7b-0514-47a3-a490-22ea8d5162de.png" width="300" height="400" /> 
 <img src="https://user-images.githubusercontent.com/75021962/139571449-409c40d1-4e95-4a0e-bbba-15d3a54971a0.png" width="300" height="400" /> 
+=======
+<img src="https://user-images.githubusercontent.com/75021962/139571414-1f471a7b-0514-47a3-a490-22ea8d5162de.png" width="350" height="400" /> 
+<img src="https://user-images.githubusercontent.com/75021962/139571449-409c40d1-4e95-4a0e-bbba-15d3a54971a0.png" width="350" height="400" /> 
+>>>>>>> ffe66da70c553a63d8b452d0947d0869791d3e1e
 </p>
 
 <p align = "center"> Synthesised block level diagram </p>
