@@ -21,15 +21,15 @@ must operate at about the same baud rate
 <br />   <p align="center"> BLOCK DIAGRAM </p>
 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/75021962/139570975-7c76365c-3684-4f5a-ace9-10ceaf0c110e.png" width="300" height="400" /> 
-<img src="https://user-images.githubusercontent.com/75021962/139571037-e3db714a-a895-4613-939e-7cd9ac23b30b.png" width="300" height="400" />
+<img src="https://user-images.githubusercontent.com/75021962/139570975-7c76365c-3684-4f5a-ace9-10ceaf0c110e.png" width="350" height="400" /> 
+<img src="https://user-images.githubusercontent.com/75021962/139571037-e3db714a-a895-4613-939e-7cd9ac23b30b.png" width="350" height="400" />
 </p>
 </br> <p align="center">FSMs </p>
 <p align="left"> Receiver side </p>  
 <p align="center"> Transmitter side </p>
 <p float="left">
-<img src="https://user-images.githubusercontent.com/75021962/139571414-1f471a7b-0514-47a3-a490-22ea8d5162de.png" width="300" height="400" /> 
-<img src="https://user-images.githubusercontent.com/75021962/139571449-409c40d1-4e95-4a0e-bbba-15d3a54971a0.png" width="300" height="400" /> 
+<img src="https://user-images.githubusercontent.com/75021962/139571414-1f471a7b-0514-47a3-a490-22ea8d5162de.png" width="350" height="400" /> 
+<img src="https://user-images.githubusercontent.com/75021962/139571449-409c40d1-4e95-4a0e-bbba-15d3a54971a0.png" width="350" height="400" /> 
 </p>
 
 <p align = "center"> Synthesised block level diagram </p>
