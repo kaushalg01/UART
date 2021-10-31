@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Mon Aug  9 12:14:06 2021
-# Process ID: 14280
+# Start of session at: Sun Oct 31 12:15:48 2021
+# Process ID: 21872
 # Current directory: C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.runs/synth_1
 # Command line: vivado.exe -log topmodule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source topmodule.tcl
 # Log file: C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.runs/synth_1/topmodule.vds
@@ -16,11 +16,13 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a15ti'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a15ti'
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 9360
+INFO: [Synth 8-7075] Helper process launched with PID 20176
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'topmodule' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/topmodule.v:23]
+INFO: [Synth 8-6157] synthesizing module 'baud_rate' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/baud_rate.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'baud_rate' (1#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/baud_rate.v:25]
 INFO: [Synth 8-6157] synthesizing module 'transmitter' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/transmitter.v:23]
 	Parameter idle bound to: 3'b000 
 	Parameter startbit bound to: 3'b001 
@@ -28,44 +30,44 @@ INFO: [Synth 8-6157] synthesizing module 'transmitter' [C:/Users/Kaushalg/OneDri
 	Parameter paritybit bound to: 3'b011 
 	Parameter stopbit bound to: 3'b100 
 INFO: [Synth 8-6157] synthesizing module 'PISO' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/PISO.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'PISO' (1#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/PISO.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PISO' (2#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/PISO.v:23]
 INFO: [Synth 8-6157] synthesizing module 'parity_gen' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/parity_gen.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'parity_gen' (2#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/parity_gen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'parity_gen' (3#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/parity_gen.v:23]
 INFO: [Synth 8-6157] synthesizing module 'mux4x1' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/mux4x1.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'mux4x1' (3#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/mux4x1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux4x1' (4#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/mux4x1.v:23]
 INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/transmitter.v:40]
-INFO: [Synth 8-6155] done synthesizing module 'transmitter' (4#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/transmitter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'transmitter' (5#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/transmitter.v:23]
 INFO: [Synth 8-6157] synthesizing module 'receiver' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/receiver.v:23]
 	Parameter idle bound to: 2'b00 
 	Parameter data bound to: 2'b01 
 	Parameter p_bit bound to: 2'b10 
 	Parameter stp_bit bound to: 2'b11 
 INFO: [Synth 8-6157] synthesizing module 'det_start' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/det_start.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'det_start' (5#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/det_start.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'det_start' (6#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/det_start.v:23]
 INFO: [Synth 8-6157] synthesizing module 'SIPO' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/SIPO.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'SIPO' (6#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/SIPO.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SIPO' (7#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/SIPO.v:23]
 INFO: [Synth 8-6157] synthesizing module 'parity_check' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/parity_check.v:23]
 WARNING: [Synth 8-567] referenced signal 'pbit' should be on the sensitivity list [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/parity_check.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'parity_check' (7#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/parity_check.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'parity_check' (8#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/parity_check.v:23]
 INFO: [Synth 8-6157] synthesizing module 'stopbit_check' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/stopbit_check.v:23]
 WARNING: [Synth 8-567] referenced signal 'in' should be on the sensitivity list [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/stopbit_check.v:26]
-INFO: [Synth 8-6155] done synthesizing module 'stopbit_check' (8#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/stopbit_check.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'stopbit_check' (9#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/stopbit_check.v:23]
 WARNING: [Synth 8-567] referenced signal 'sb_det' should be on the sensitivity list [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/receiver.v:39]
 WARNING: [Synth 8-567] referenced signal 'pb_error' should be on the sensitivity list [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/receiver.v:39]
-INFO: [Synth 8-6155] done synthesizing module 'receiver' (9#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/receiver.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'topmodule' (10#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/topmodule.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'receiver' (10#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/receiver.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'topmodule' (11#1) [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/topmodule.v:23]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a15ticsg324-1L
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a15ticsg324-1L
 INFO: [Synth 8-802] inferred FSM for state register 'pstate_reg' in module 'transmitter'
@@ -98,7 +100,7 @@ WARNING: [Synth 8-327] inferring latch for variable 'shift_reg' [C:/Users/Kausha
 WARNING: [Synth 8-327] inferring latch for variable 'nstate_reg' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/receiver.v:43]
 WARNING: [Synth 8-327] inferring latch for variable 'count_reg' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/receiver.v:47]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
@@ -114,8 +116,9 @@ Detailed RTL Component Info :
 +---Registers : 
 	                8 Bit    Registers := 2     
 	                2 Bit    Registers := 1     
-	                1 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
 +---Muxes : 
+	   4 Input   32 Bit        Muxes := 1     
 	   2 Input    7 Bit        Muxes := 4     
 	   5 Input    5 Bit        Muxes := 1     
 	   2 Input    5 Bit        Muxes := 1     
@@ -142,20 +145,20 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -173,13 +176,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin t1/count[3] with 1st driver pin 't1/count_reg[3]__0/Q' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/transmitter.v:55]
 CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin t1/count[3] with 2nd driver pin 't1/count_reg[3]/Q' [C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.srcs/sources_1/new/transmitter.v:82]
@@ -208,25 +211,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -239,62 +242,63 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+-----+------+
-|      |Cell |Count |
-+------+-----+------+
-|1     |BUFG |     1|
-|2     |LUT1 |     4|
-|3     |LUT2 |    10|
-|4     |LUT3 |     5|
-|5     |LUT4 |    13|
-|6     |LUT5 |     7|
-|7     |LUT6 |     6|
-|8     |FDCE |     2|
-|9     |FDPE |     1|
-|10    |FDRE |    28|
-|11    |FDSE |     1|
-|12    |LD   |    26|
-|13    |IBUF |    11|
-|14    |OBUF |    10|
-+------+-----+------+
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    10|
+|3     |LUT1   |     4|
+|4     |LUT2   |    39|
+|5     |LUT3   |     9|
+|6     |LUT4   |    13|
+|7     |LUT5   |    12|
+|8     |LUT6   |     6|
+|9     |FDCE   |    34|
+|10    |FDPE   |     2|
+|11    |FDRE   |    24|
+|12    |LD     |    26|
+|13    |IBUF   |    13|
+|14    |OBUF   |    10|
++------+-------+------+
 
 Report Instance Areas: 
 +------+---------+--------------+------+
 |      |Instance |Module        |Cells |
 +------+---------+--------------+------+
-|1     |top      |              |   125|
-|2     |  r1     |receiver      |    42|
-|3     |    c1   |stopbit_check |     1|
-|4     |    d1   |det_start     |     2|
-|5     |    p1   |parity_check  |     2|
-|6     |    s1   |SIPO          |    10|
-|7     |  t1     |transmitter   |    61|
-|8     |    p    |parity_gen    |     4|
-|9     |    p1   |PISO          |    17|
+|1     |top      |              |   204|
+|2     |  bdr1   |baud_rate     |    77|
+|3     |  r1     |receiver      |    42|
+|4     |    c1   |stopbit_check |     1|
+|5     |    d1   |det_start     |     2|
+|6     |    p1   |parity_check  |     2|
+|7     |    s1   |SIPO          |    10|
+|8     |  t1     |transmitter   |    60|
+|9     |    p    |parity_gen    |     4|
+|10    |    p1   |PISO          |    17|
 +------+---------+--------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1088.949 ; gain = 0.000
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 16 critical warnings and 22 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1106.074 ; gain = 0.000
-Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1106.074 ; gain = 0.000
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1088.949 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1088.949 ; gain = 0.000
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1106.074 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1088.949 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 36 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1161.512 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1162.746 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 26 instances were transformed.
   LD => LDCE: 25 instances
   LD => LDCE (inverted pins: G): 1 instance 
 
 INFO: [Common 17-83] Releasing license: Synthesis
-35 Infos, 22 Warnings, 16 Critical Warnings and 0 Errors encountered.
+37 Infos, 22 Warnings, 16 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1161.512 ; gain = 55.438
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 1162.746 ; gain = 73.797
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.runs/synth_1/topmodule.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file topmodule_utilization_synth.rpt -pb topmodule_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Aug  9 12:14:40 2021...
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 31 12:16:32 2021...

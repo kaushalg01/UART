@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Oct 31 12:18:17 2021
+# Process ID: 26320
+# Current directory: C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.runs/impl_1
+# Command line: vivado.exe -log topmodule.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source topmodule.tcl -notrace
+# Log file: C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.runs/impl_1/topmodule.vdi
+# Journal file: C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source topmodule.tcl -notrace
+Command: open_checkpoint C:/Users/Kaushalg/OneDrive/Documents/3stVivado/UART/UART.runs/impl_1/topmodule.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 1088.926 ; gain = 0.000
+INFO: [Device 21-403] Loading part xc7a15ticsg324-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1088.926 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1088.926 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2020.2 (64-bit) build 3064766
+open_checkpoint: Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 1088.926 ; gain = 0.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a15ti'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a15ti'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net r1/count[0] has multiple drivers: r1/count_reg[0]/Q, and r1/count_reg[0]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net r1/count[1] has multiple drivers: r1/count_reg[1]/Q, and r1/count_reg[1]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net r1/count[2] has multiple drivers: r1/count_reg[2]/Q, and r1/count_reg[2]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net r1/count[3] has multiple drivers: r1/count_reg[3]/Q, and r1/count_reg[3]__0/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net t1/count[0] has multiple drivers: t1/count_reg[0]__0/Q, and t1/count_reg[0]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net t1/count[1] has multiple drivers: t1/count_reg[1]__0/Q, and t1/count_reg[1]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net t1/count[2] has multiple drivers: t1/count_reg[2]__0/Q, and t1/count_reg[2]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net t1/count[3] has multiple drivers: t1/count_reg[3]__0/Q, and t1/count_reg[3]/Q.
+INFO: [Project 1-461] DRC finished with 8 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1088.926 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 0 Warnings, 0 Critical Warnings and 9 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 31 12:18:52 2021...
