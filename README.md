@@ -21,8 +21,8 @@ must operate at about the same baud rate.
 <br />   <p align="center"> BLOCK DIAGRAM </p>
 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/75021962/139570975-7c76365c-3684-4f5a-ace9-10ceaf0c110e.png" width="300" height="400" /> 
-<img src="https://user-images.githubusercontent.com/75021962/139571037-e3db714a-a895-4613-939e-7cd9ac23b30b.png" width="300" height="400" />
+<img src="https://user-images.githubusercontent.com/75021962/139570975-7c76365c-3684-4f5a-ace9-10ceaf0c110e.png" width="350" height="400" /> 
+<img src="https://user-images.githubusercontent.com/75021962/139571037-e3db714a-a895-4613-939e-7cd9ac23b30b.png" width="350" height="400" />
 
 </p>
 </br> <p align="center">FSMs </p>
